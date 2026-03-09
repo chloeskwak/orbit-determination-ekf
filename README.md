@@ -16,3 +16,13 @@ This project implements an Extended Kalman Filter (EKF) to estimate spacecraft p
 
 ## Goal
 To demonstrate spacecraft state estimation and orbit determination using physics-based modeling and simulation.
+
+## Example Simulation
+
+The repository includes a simple orbital propagation example using Runge–Kutta integration.
+
+Run:
+
+python orbit_simulation.py
+
+This will simulate and plot a spacecraft orbit around Earth.
