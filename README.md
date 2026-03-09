@@ -1,28 +1,37 @@
-# Orbit Determination using Extended Kalman Filter
+# Orbit Determination and Orbital Simulation
 
-This project implements an Extended Kalman Filter (EKF) to estimate spacecraft position and velocity from simulated measurements.
+This project demonstrates basic spacecraft orbital propagation and numerical simulation techniques used in orbit determination and spacecraft navigation.
+
+The repository currently includes a simple orbital dynamics simulation using numerical integration and will later be extended to include Extended Kalman Filter (EKF) orbit estimation.
+
+---
 
 ## Methods
+
+The simulation includes:
+
 - Two-body orbital dynamics
 - Runge–Kutta 4 numerical integration
-- State transition matrix propagation
+- Spacecraft state propagation
+- Trajectory visualization
+
+Future additions will include:
+
+- Extended Kalman Filter (EKF) orbit estimation
+- Simulated measurement models
 - Covariance propagation
-- Simulated noisy measurements
+- Monte Carlo estimation analysis
+
+---
 
 ## Tools
+
 - Python
 - NumPy
 - Matplotlib
 
-## Goal
-To demonstrate spacecraft state estimation and orbit determination using physics-based modeling and simulation.
+---
 
-## Example Simulation
+## Running the Simulation
 
-The repository includes a simple orbital propagation example using Runge–Kutta integration.
-
-Run:
-
-python orbit_simulation.py
-
-This will simulate and plot a spacecraft orbit around Earth.
+Run the script:
