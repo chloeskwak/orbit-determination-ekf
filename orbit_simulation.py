@@ -61,5 +61,7 @@ plt.xlabel("x (km)")
 plt.ylabel("y (km)")
 plt.title("Simulated Orbit")
 plt.axis("equal")
+plt.grid()
+
 plt.savefig("orbit_trajectory.png")
 plt.show()
